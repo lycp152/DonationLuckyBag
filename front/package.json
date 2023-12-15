@@ -1,0 +1,31 @@
+{
+  "name": "donationluckybag",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@thirdweb-dev/react": "^4",
+    "@thirdweb-dev/sdk": "^4",
+    "@thirdweb-dev/wallets": "^2.3.1",
+    "ethers": "^5",
+    "next": "^14",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14",
+    "typescript": "^5.3.3"
+  }
+}
